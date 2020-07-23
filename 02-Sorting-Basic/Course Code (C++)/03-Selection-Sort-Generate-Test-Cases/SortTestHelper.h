@@ -24,6 +24,7 @@ namespace SortTestHelper {
 
         srand(time(NULL));
         for (int i = 0; i < n; i++)
+            //rand()返回随机整数
             arr[i] = rand() % (rangeR - rangeL + 1) + rangeL;
         return arr;
     }
